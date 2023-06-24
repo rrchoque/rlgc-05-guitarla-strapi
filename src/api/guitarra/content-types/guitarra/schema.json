@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "guiratarras",
+  "collectionName": "guitarras",
   "info": {
-    "singularName": "guiratarra",
-    "pluralName": "guiratarras",
-    "displayName": "Guiratarra",
-    "description": ""
+    "singularName": "guitarra",
+    "pluralName": "guitarras",
+    "displayName": "Guitarra"
   },
   "options": {
     "draftAndPublish": true
@@ -17,18 +16,19 @@
       "required": true
     },
     "precio": {
-      "type": "integer"
+      "type": "integer",
+      "required": true,
+      "min": 0
     },
     "descripcion": {
       "type": "richtext"
     },
     "imagen": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "url": {
       "type": "uid",

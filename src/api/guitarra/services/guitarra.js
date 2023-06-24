@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * guiratarra service
+ * guitarra service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::guiratarra.guiratarra');
+module.exports = createCoreService('api::guitarra.guitarra');

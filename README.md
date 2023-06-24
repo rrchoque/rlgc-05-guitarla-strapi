@@ -1,4 +1,8 @@
-# 🚀 Getting started with Strapi
+# 🚀 Proyecto: API de Portal GuitarLA con Strapi
+
+API de GuitarLA del proyecto N° 5 del curso [React - La Guía Completa: Hooks Context Redux MERN +15 Apps](https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/) de la plataforma Udemy dictado por [Juan Pablo De la torre Valdez](https://www.udemy.com/user/juanpablodelatorrevaldez/).
+
+# Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
